@@ -42,11 +42,11 @@ This app includes an example implemention of Venmo's OAuth server-side authentic
 
 First, if you are not signed up for Venmo, sign up for an account [here](https://venmo.com/signup).
 
-Next, login and go to: Account > Developers > [New Application](https://venmo.com/account/app/new).
+Next, login and go to: Account > Developers > [New Application](https://venmo.com/account/settings/developer/apps/new).
 
 **Note: When doing local development, you must set `Web Redirect URL` to http://localhost:5000/oauth-authorized so that Venmo properly redirects back to your app once a user has authenticated. When deploying to a cloud platform like Heroku, change the web redirect URL to the location of your Heroku app.**
-
-![Create new application](https://dl.dropboxusercontent.com/s/ffo01uzr65y9kzw/GbalC.png)
+                          
+![Create new application](https://venmo.com/account/settings/developer/apps/new)
 
 Now, fill in the constants.py file with this information:
 <table>
